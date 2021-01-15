@@ -1,0 +1,32 @@
+//this is a comment in javascript. Javascript will ignore any text I put here
+//Hey javascript, you suck! see? it can't tell that I am insulting it because it does not read This
+
+//There are three things like variables
+//varaibles, constants, and scoped variables
+
+//we will begin by focusing on variables and constants, this is a variable
+var x = 6;
+console.log(x)
+alert(x);
+var x = 7;
+console.log(x)
+alert(x);
+
+//Notice how I reassigned X to equal seven and when it ran
+//the second time, x was no longer 6? this is because variables
+//are reassignable. Constants, however, are not
+
+const myConst = 6;
+console.log(myConst);
+alert(myConst);
+
+//This line of code will produce an error: const myConst = 7;
+// the = operator does not work the same way it does in algebra, instead it is an assignement
+//operator. Take for instance the following statement:
+
+var x = x + 5;
+console.log(x)
+alert(x)
+
+//describe the patern you see between the bottom variable assignment's output
+//and the top part's output.
