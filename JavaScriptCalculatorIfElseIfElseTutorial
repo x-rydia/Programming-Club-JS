@@ -1,0 +1,34 @@
+// this is on if statements, an if statement tests to see if an
+//object follows certain conditions.
+//This is the very begining of a JS calculator.
+
+var inputOne = 4;
+var inputTwo = 5;
+var operator = "multiply";
+
+var result;
+//notice anything strange about how I defined the variable result?
+//it is empty, you can define a variable without a value to be filled
+//later by ommiting the = sign and contents
+//the basic structure of an if statement is as follows
+//          if (condition) {
+//            code to be executed under condition
+//          } else if(note that there can be an infintite amound of else if's) (other condition) {
+//            code to be executed under the other condition
+//          } else (no conditions, in an else statement, all conditions not previously covered will execute the following code){
+//            code to be executed
+//          }
+if (operator == 'multiply') {
+    result = 4*5;
+    //see this ^ that is how you do arithmetic in JS.
+    console.log(result);
+} else if (operator == 'add') {
+    result = 4+5;
+    console.log(result);
+} else if (operator == 'subtract'){
+    result = 4-5;
+    console.log(result);
+} else {
+    result = 4/5;
+    console.log(result);
+}
